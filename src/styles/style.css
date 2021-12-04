@@ -17,7 +17,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 72px;
 }
-h1 span {
+h1 span,
+h2 span {
   color: #FE8A02;
 }
 h2 {
@@ -73,4 +74,25 @@ h3 {
 }
 .btn:hover {
   background: #EA7600;
+}
+.video-block h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.video-block h4 {
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #212529;
+  margin-bottom: 28px;
+  font-family: 'Open Sans';
+  font-weight: normal;
+}
+.video {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -84px;
+}
+.video iframe {
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
