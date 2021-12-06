@@ -1,16 +1,21 @@
 /** CSS STYLE **/
 * {
-  padding: 0;
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body {
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   color: #2A2626;
   font-size: 16px;
   line-height: 1.6em;
 }
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: 'Neucha', cursive;
   line-height: 1.2em;
 }
@@ -30,8 +35,8 @@ h3 {
 .container {
   max-width: 1110px;
   margin: 0 auto;
-  padding: 100px 0;
   position: relative;
+  padding: 100px 0;
 }
 .header {
   background: #F5F4F0 url(../images/background.png) no-repeat 0 0;
@@ -87,7 +92,7 @@ h3 {
   text-align: center;
   color: #212529;
   margin-bottom: 29px;
-  font-family: 'Open Sans';
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
 }
 .video {
@@ -135,14 +140,14 @@ h3 {
   background: none;
 }
 .navigation-item .num {
-  font-family: 'Neucha';
+  font-family: 'Neucha', cursive;
   font-size: 64px;
   line-height: 70px;
   color: #42413C;
   margin-bottom: 34px;
 }
 .navigation-item-title {
-  font-family: 'Neucha';
+  font-family: 'Neucha', cursive;
   font-size: 34px;
   line-height: 120%;
   color: #FE8A02;
@@ -151,7 +156,7 @@ h3 {
 .navigation-item-text {
   font-size: 16px;
   line-height: 26px;
-  color: #2A2626;
+  color: #2a2626;
 }
 .article {
   background: #F5F4F0 url(../images/background2.png) no-repeat 0 0;
@@ -175,7 +180,7 @@ h3 {
   font-size: 24px;
   line-height: 29px;
   color: #908D8B;
-  font-family: 'Neucha';
+  font-family: 'Neucha', cursive;
 }
 .article-item-content {
   max-width: calc(100% - 608px);
@@ -187,7 +192,7 @@ h3 {
 .article-item-content  .text {
   font-size: 34px;
   line-height: 41px;
-  font-family: 'Neucha';
+  font-family: 'Neucha', cursive;
 }
 .text-block-title {
   padding: 5px 10px;
@@ -198,7 +203,7 @@ h3 {
   align-items: center;
   text-transform: uppercase;
   color: #FFFFFF;
-  font-family: 'Open sans';
+  font-family: 'Open sans', sans-serif;
   background: #B09A81;
   margin-bottom: 20px;
 }
