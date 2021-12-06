@@ -259,12 +259,12 @@ h3 {
 
   align-items: center;
 
-  padding: 5px 10px;
   margin-bottom: 20px;
-
-  line-height: 17px;
+  padding: 5px 10px;
 
   color: #fff;
+  line-height: 17px;
+
   font-weight: bold;
   font-size: 14px;
   font-family: 'Open sans', sans-serif;
@@ -367,10 +367,12 @@ h3 {
 .footer-form-item-controls button {
   display: flex;
 
-  width: 70px;
   align-items: center;
-  height: 50px;
+  width: 70px;
+
   position: relative;
+  height: 50px;
+
   justify-content: center;
 
   border: 0;
@@ -382,15 +384,16 @@ h3 {
   position: absolute;
 
   top: 50%;
-  content: "";
   left: 50%;
+
+  content: "";
 
   display: block;
 
   width: 24px;
-  transform: translate(-50%, -50%);
-
   height: 24px;
+
+  transform: translate(-50%, -50%);
 
   background: #fe8a02 url(../images/icon-send.svg) no-repeat 0 0;
 }
