@@ -100,11 +100,11 @@ h3 {
 .btn {
   display: inline-block;
 
-  padding: 11px 24px;
   margin-top: 23px;
+  padding: 11px 24px;
 
-  font-weight: bold;
   color: #fff;
+  font-weight: bold;
   font-size: 16px;
   line-height: 160%;
 
@@ -127,10 +127,10 @@ h3 {
 .video-block h4 {
   margin-bottom: 29px;
 
-  font-size: 16px;
-  line-height: 160%;
   color: #212529;
   font-weight: normal;
+  font-size: 16px;
+  line-height: 160%;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
@@ -255,12 +255,13 @@ h3 {
 }
 
 .text-block-title {
-  padding: 5px 10px;
-
   display: flex;
 
-  line-height: 17px;
+  padding: 5px 10px;
+
   align-items: center;
+
+  line-height: 17px;
   margin-bottom: 20px;
 
   color: #fff;
@@ -308,15 +309,16 @@ h3 {
 }
 
 .article-brown .text-block-title {
-  background: #fff;
   color: #b09a81;
+
+  background: #fff;
 }
 
 .footer-form {
-  padding: 38px 55px 40px 55px;
-  margin-bottom: 75px;
-
   display: flex;
+
+  margin-bottom: 75px;
+  padding: 38px 55px 40px 55px;
 
   background: #42413c;
 }
@@ -327,11 +329,11 @@ h3 {
 }
 
 .footer-form-item-title {
+  margin-bottom: 9px;
+
   color: #fff;
   font-size: 18px;
   line-height: 160%;
-
-  margin-bottom: 9px;
 }
 
 .footer-form-item-controls {
@@ -339,12 +341,14 @@ h3 {
 }
 
 .footer-form-item-controls input {
-  border: 0;
-  background: #fff;
-  border: 1px solid #e3e3e3;
-  padding: 0 15px;
-  height: 50px;
   width: calc(100% - 70px);
+  height: 50px;
+
+  padding: 0 15px;
+
+  border: 1px solid #e3e3e3;
+
+  background: #fff;
 }
 
 .footer-form-item-controls input::-webkit-input-placeholder,
@@ -361,34 +365,42 @@ h3 {
 }
 
 .footer-form-item-controls button {
+  display: flex;
+
   width: 70px;
   height: 50px;
-  display: flex;
   align-items: center;
   justify-content: center;
-  background: #fe8a02;
-  border: 0;
+
   position: relative;
+  border: 0;
+
+  background: #fe8a02;
 }
 
-.footer-form-item-controls button:before {
-  content: "";
+.footer-form-item-controls button::before {
   position: absolute;
+
+  content: "";
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+
   display: block;
-  background: #fe8a02 url(../images/icon-send.svg) no-repeat 0 0;
+
+  transform: translate(-50%, -50%);
+
   width: 24px;
   height: 24px;
+
+  background: #fe8a02 url(../images/icon-send.svg) no-repeat 0 0;
 }
 
 .footer-form-item-desclaimer {
+  padding-top: 2px;
+
   color: #fff;
   font-size: 12px;
   line-height: 160%;
-
-  padding-top: 2px;
 }
 
 .footer-form-item-desclaimer a {
@@ -405,20 +417,22 @@ h3 {
 }
 
 .copyright {
+  margin-bottom: 16px;
+
   color: #000;
   font-size: 14px;
   line-height: 160%;
-  text-align: center;
 
-  margin-bottom: 16px;
+  text-align: center;
 }
 
 .footer-link {
+  margin-bottom: 16px;
+
   color: #000;
   font-size: 14px;
   line-height: 160%;
 
-  margin-bottom: 16px;
   text-align: center;
 }
 
