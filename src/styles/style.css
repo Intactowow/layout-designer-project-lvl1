@@ -72,9 +72,9 @@ h3 {
   position: absolute;
   top: 55px;
 
-  width: auto;
-
   right: -166px;
+
+  width: auto;
 
   height: 525px;
 }
@@ -98,19 +98,21 @@ h3 {
 }
 
 .btn {
-  font-weight: bold;
-
   padding: 11px 24px;
-  font-size: 16px;
 
   display: inline-block;
+
+  font-weight: bold;
+  font-size: 16px;
+
   color: #fff;
   line-height: 160%;
 
-  text-transform: uppercase;
-
   margin-top: 23px;
+
+  text-transform: uppercase;
   text-decoration: none;
+
   background: #fe8a02;
 }
 
@@ -119,20 +121,22 @@ h3 {
 }
 
 .video-block h2 {
-  text-align: center;
-
   margin-bottom: 30px;
+
+  text-align: center;
 }
 
 .video-block h4 {
   font-size: 16px;
-  line-height: 160%;
+
   margin-bottom: 29px;
+
+  line-height: 160%;
 
   color: #212529;
   font-weight: normal;
-  text-align: center;
   font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 
 .video {
@@ -162,12 +166,13 @@ h3 {
   margin: 20px 15px 0 15px;
 
   text-decoration: none;
+
   background: #f5f4f0;
 }
 
 .navigation-item:not(.title) {
-  padding: 24px 24px 20px 24px;
   display: flex;
+  padding: 24px 24px 20px 24px;
   flex-direction: column;
 }
 
@@ -176,27 +181,29 @@ h3 {
 }
 
 .navigation-item .num {
+  margin-bottom: 34px;
+
   font-size: 64px;
   font-family: 'Neucha', cursive;
-
-  margin-bottom: 34px;
 
   color: #42413c;
   line-height: 70px;
 }
 
 .navigation-item-title {
+  margin-bottom: 13px;
+
   font-size: 34px;
   font-family: 'Neucha', cursive;
-  line-height: 120%;
-  margin-bottom: 13px;
+
   color: #fe8a02;
+  line-height: 120%;
 }
 
 .navigation-item-text {
+  color: #2a2626;
   font-size: 16px;
   line-height: 26px;
-  color: #2a2626;
 }
 
 .navigation-item:not(.title):hover .num,
@@ -233,10 +240,10 @@ h3 {
 
 .article-item-content .title-small {
   font-size: 24px;
+  font-family: 'Neucha', cursive;
   line-height: 29px;
 
   color: #908d8b;
-  font-family: 'Neucha', cursive;
 }
 
 .article-item-content {
@@ -250,17 +257,20 @@ h3 {
 
 .article-item-content  .text {
   font-size: 34px;
-  line-height: 41px;
   font-family: 'Neucha', cursive;
+  line-height: 41px;
 }
 
 .text-block-title {
   padding: 5px 10px;
   font-size: 14px;
-  line-height: 17px;
+
   display: flex;
+
+  line-height: 17px;
   align-items: center;
   margin-bottom: 20px;
+
   color: #fff;
   text-transform: uppercase;
   font-weight: bold;
