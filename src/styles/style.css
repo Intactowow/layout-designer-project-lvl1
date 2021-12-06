@@ -65,7 +65,7 @@ h3 {
   width: 100%;
   height: auto;
 
-  filter: drop-shadow(0px 16px 32px rgba(0, 0, 0, 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
 .header .container img {
@@ -263,9 +263,8 @@ h3 {
   padding: 5px 10px;
 
   color: #fff;
-  line-height: 17px;
-
   font-weight: bold;
+  line-height: 17px;
   font-size: 14px;
   font-family: 'Open sans', sans-serif;
   text-transform: uppercase;
@@ -368,12 +367,11 @@ h3 {
   display: flex;
 
   align-items: center;
+  position: relative;
   width: 70px;
 
-  position: relative;
-  height: 50px;
-
   justify-content: center;
+  height: 50px;
 
   border: 0;
 
@@ -386,16 +384,16 @@ h3 {
   top: 50%;
   left: 50%;
 
-  content: "";
-
   display: block;
+
+  content: "";
 
   width: 24px;
   height: 24px;
 
-  transform: translate(-50%, -50%);
-
   background: #fe8a02 url(../images/icon-send.svg) no-repeat 0 0;
+
+  transform: translate(-50%, -50%);
 }
 
 .footer-form-item-desclaimer {
