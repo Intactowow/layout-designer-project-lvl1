@@ -202,3 +202,25 @@ h3 {
 .article .container {
   padding-bottom: 80px;
 }
+.article-brown {
+  background: #B09A81;
+}
+.article-brown .article-item {
+  flex-direction: row-reverse;
+}
+.article-brown .article-item-img {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.article-brown .article-item-content .title-small {
+  color: #D7CCC0;
+}
+.article-brown .text-block,
+.article-brown .article-item-content h2,
+.article-brown .article-item-content .text {
+  color: #FFFFFF;
+}
+.article-brown .text-block-title {
+  background: #FFFFFF;
+  color: #B09A81;
+}
